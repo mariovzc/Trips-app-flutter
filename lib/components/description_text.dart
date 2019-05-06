@@ -8,7 +8,12 @@ Container descriptionText(String text) {
       right: 20
       ),
     child: Text(
-      text
+      text,
+      style: TextStyle(
+        fontSize: 16,
+        fontWeight: FontWeight.bold,
+        color: Color(0xFF56575a)
+      ),
     ),
   );
 }
