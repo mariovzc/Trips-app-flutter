@@ -11,7 +11,8 @@ Container titlePlace(String title) {
       title,
       style: TextStyle(
         fontSize: 30,
-        fontWeight: FontWeight.w900
+        fontWeight: FontWeight.w900,
+        fontFamily: 'Lato',
       ),
       textAlign: TextAlign.left,
     ),

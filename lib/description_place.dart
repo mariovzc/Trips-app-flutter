@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'components/title_place.dart';
 import 'components/description_text.dart';
-import 'components/description_stars_widget.dart';
+import 'components/stars_widget.dart';
 
 
 class DescriptionPlace extends StatelessWidget {

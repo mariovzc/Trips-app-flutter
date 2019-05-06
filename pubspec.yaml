@@ -17,3 +17,12 @@ flutter:
   uses-material-design: true
   assets:
     - lib/assets/img/bg.jpg
+    - lib/assets/img/people.jpg
+    
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: lib/assets/fonts/Lato-Regular.ttf
+    - family: Sacramento
+      fonts:
+        - asset: lib/assets/fonts/Sacramento-Regular.ttf
