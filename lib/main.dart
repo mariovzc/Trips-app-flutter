@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'description_place.dart';
 import 'extra/hard_strings.dart';
-import 'components/review_list.dart';
+import 'components/review_widgets/review_list.dart';
 
 void main() => runApp(MyApp());
 
