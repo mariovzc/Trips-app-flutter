@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'description_place.dart';
 import 'extra/hard_strings.dart';
 import 'components/review_widgets/review_list.dart';
-import 'components/gradient_bg.dart';
+import 'components/header_app_bar.dart';
 
 void main() => runApp(MyApp());
 
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
                 ReviewList()
               ],
             ),
-            GradientBg('Popular'),
+            HeaderAppBar(),
           ],
         ),
       )
