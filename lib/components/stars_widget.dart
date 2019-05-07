@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'star_widget.dart';
 
-Widget starsWidget(double numberOfStars, {double top = 323,double size = 25}){
+Widget starsWidget(double numberOfStars, {double top = 325,double size = 25}){
   List<Widget> rowStars = [];
   for(int i=1; i<=5; i++){
     rowStars.add(validateStarIconWidget(numberOfStars, top, size));

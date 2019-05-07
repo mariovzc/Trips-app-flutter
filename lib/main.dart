@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'description_place.dart';
 import 'extra/hard_strings.dart';
 import 'components/review_widgets/review_list.dart';
+import 'components/gradient_bg.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,17 +16,17 @@ class MyApp extends StatelessWidget {
       ),
       //MyHomePage(title: 'Flutter Demo Home Page'),
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('Hello'),
+        body: Stack(
+          children: <Widget>[
+            ListView(
+              children: <Widget>[
+                DescriptionPlace('Bahamas', 1.5, dummyString()),
+                ReviewList()
+              ],
+            ),
+            GradientBg(),
+          ],
         ),
-        body: SingleChildScrollView(
-          child: Column(
-            children: <Widget>[
-              DescriptionPlace('Bahamas', 1.5, dummyString()),
-              ReviewList()
-            ],
-          ),
-        )
       )
     );
   }
