@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trips_app/components/screens/home_trips.dart';
-import 'package:trips_app/components/screens/profile_trips.dart';
-import 'package:trips_app/components/screens/search_trips.dart';
+import 'package:trips_app/components/cupertino_navbar.dart';
 
 class Trips extends StatefulWidget {
   Trips({Key key}) : super(key: key);
@@ -10,7 +8,12 @@ class Trips extends StatefulWidget {
 }
 
 class _TripsState extends State<Trips> {
-
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return CupertinoNavBar();
+  }
+  /*
   int indexTap = 0;
 
   final List<Widget> widgetList = [
@@ -53,4 +56,5 @@ class _TripsState extends State<Trips> {
   void _onTabTapped(int index) {
     setState(() => indexTap = index);
   }
+  */
 }
