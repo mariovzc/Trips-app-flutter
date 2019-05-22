@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trips_app/components/cupertino_navbar.dart';
+//import 'package:trips_app/components/cupertino_navbar.dart';
 import 'package:trips_app/components/fancy_navigation.dart';
 
 class Trips extends StatefulWidget {
