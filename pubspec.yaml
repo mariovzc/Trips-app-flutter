@@ -7,6 +7,8 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^0.1.2
+  fancy_bottom_navigation: ^0.1.0
+
 
 dev_dependencies:
   flutter_test:
