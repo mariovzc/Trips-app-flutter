@@ -19,7 +19,7 @@ class UserInfo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(top: 100, left: 20),
+      padding: EdgeInsets.only(top: 20, left: 20, bottom: 35),
       child: Row(
         children: <Widget>[
           UserPhoto(photoUrl),

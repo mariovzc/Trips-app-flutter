@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:trips_app/components/profile_widgets/user_info.dart';
+import 'package:trips_app/components/profile_widgets/action_buttons_list.dart';
 
 class ProfileBg extends StatelessWidget {
 
@@ -22,19 +24,24 @@ class ProfileBg extends StatelessWidget {
           tileMode: TileMode.clamp
         )
       ),
-      child: Container(
-        margin: EdgeInsets.only(
-          bottom: 97,
-        ),
-        child: Text(
-          title,
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 30,
-            fontFamily: 'Lato',
-            fontWeight: FontWeight.bold,
+      child: Column(
+        children: [
+        Container(
+          padding: EdgeInsets.only(top: 42, left: 11),
+          alignment: Alignment.topLeft,
+          child: Text(
+            title,
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 30,
+              fontFamily: 'Lato',
+              fontWeight: FontWeight.bold,
+            ),
           ),
         ),
+        UserInfo('https://thispersondoesnotexist.com/image', 'Juan Perez', 'Juan Perez@yopmail.com'),
+        ActionButtonsList()]
+        
       ),
       alignment: Alignment(-0.9, -0.6),
     );
