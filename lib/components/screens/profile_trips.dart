@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trips_app/components/profile_widgets/headerBar.dart';
+import 'package:trips_app/components/profile_widgets/header_bar.dart';
 
 class ProfileTrips extends StatelessWidget {
 
