@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 
-class GradientBg extends StatelessWidget {
+class ProfileBg extends StatelessWidget {
 
   String title;
-  final double height;
 
-  GradientBg(this.title, {this.height = 250});
+  ProfileBg(this.title);
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: height,
+      height: 350,
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
@@ -23,13 +22,18 @@ class GradientBg extends StatelessWidget {
           tileMode: TileMode.clamp
         )
       ),
-      child: Text(
-        title,
-        style: TextStyle(
-          color: Colors.white,
-          fontSize: 30,
-          fontFamily: 'Lato',
-          fontWeight: FontWeight.bold,
+      child: Container(
+        margin: EdgeInsets.only(
+          bottom: 97,
+        ),
+        child: Text(
+          title,
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 30,
+            fontFamily: 'Lato',
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ),
       alignment: Alignment(-0.9, -0.6),

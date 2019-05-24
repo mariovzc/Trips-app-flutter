@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:trips_app/components/profile_widgets/headerBar.dart';
 
 class ProfileTrips extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.indigoAccent,
+      child: Stack(
+        children: <Widget>[
+          HeaderBar()
+        ],
+      ),
     );
   }
 }
