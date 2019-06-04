@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-//import 'package:trips_app/components/cupertino_navbar.dart';
-import 'package:trips_app/components/fancy_navigation.dart';
+import 'package:trips_app/components/cupertino_navbar.dart';
+//import 'package:trips_app/components/fancy_navigation.dart';
 
 class Trips extends StatefulWidget {
   Trips({Key key}) : super(key: key);
@@ -12,8 +12,8 @@ class _TripsState extends State<Trips> {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    //return CupertinoNavBar();
-    return FancyNavigation();
+    return CupertinoNavBar();
+    //return FancyNavigation();
   }
   /*
   int indexTap = 0;
