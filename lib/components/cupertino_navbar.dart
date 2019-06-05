@@ -6,25 +6,27 @@ import 'package:trips_app/components/screens/search_trips.dart';
 
 
 class CupertinoNavBar extends StatelessWidget {
-  const CupertinoNavBar({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: CupertinoTabScaffold(
         tabBar: CupertinoTabBar(
+          inactiveColor: CupertinoColors.inactiveGray,
+          activeColor: Colors.indigo,
           items: [
               BottomNavigationBarItem(
-                  icon: Icon(Icons.home, color: Colors.indigo)
+                  icon: Icon(Icons.home)
               ),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.search, color: Colors.indigo)
+                  icon: Icon(Icons.search)
               ),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.person, color: Colors.indigo)
+                  icon: Icon(Icons.person)
               ),
           ]
         ), tabBuilder: (BuildContext context, int index) {
+          
           switch (index) {
             case 0:
               return CupertinoTabView(
