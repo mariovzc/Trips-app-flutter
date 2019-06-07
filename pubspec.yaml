@@ -18,12 +18,17 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - lib/assets/img/
-    
+    - assets/img/people.jpg
+    - assets/img/ann.jpg
+    - assets/img/girl.jpg
+    - assets/img/mountain.jpeg
+    - assets/img/beach.jpeg
+    - assets/img/beach_palm.jpeg
+    - assets/img/mountain_stars.jpeg
+    - assets/img/sunset.jpeg
+    - assets/img/river.jpeg
+
   fonts:
     - family: Lato
       fonts:
-        - asset: lib/assets/fonts/Lato-Regular.ttf
-    - family: Sacramento
-      fonts:
-        - asset: lib/assets/fonts/Sacramento-Regular.ttf
+        - asset: fonts/Lato-Regular.ttf
